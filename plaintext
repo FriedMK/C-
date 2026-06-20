@@ -1,0 +1,10 @@
+BacktestEngine/
+├── CMakeLists.txt
+├── src/
+│   ├── main.cpp          # 程序入口、回测调度
+│   ├── KLine.hpp/cpp     # K线结构体、数据读取
+│   ├── Indicator.hpp/cpp # 均线、MACD等因子计算
+│   ├── Strategy.hpp/cpp  # 交易策略逻辑
+│   ├── Perf.hpp/cpp      # 净值、最大回撤、夏普绩效
+└── data/
+    └── stock.csv         # 测试行情数据
